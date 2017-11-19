@@ -2,7 +2,7 @@
   "name": "cyberpunk-syntax",
   "description": "A cyberpunk syntax theme",
   "repository": "https://github.com/gilbertohasnofb/cyberpunk-syntax.git",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "engines": {
     "atom": ">= 1.13"
   }
