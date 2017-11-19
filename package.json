@@ -6,7 +6,7 @@
     "url": "git+https://github.com/gilbertohasnofb/cyberpunk-syntax.git"
   },
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "atom": ">= 1.13"
   }
