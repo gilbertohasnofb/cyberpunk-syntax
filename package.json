@@ -1,33 +1,12 @@
 {
   "name": "cyberpunk-syntax",
-  "version": "0.0.0",
+  "description": "A cyberpunk syntax theme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gilbertohasnofb/cyberpunk-syntax.git"
   },
-  "dependencies": {},
-  "description": "A cyberpunk syntax theme",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/dsandstrom/atom-ruby-block-converter/raw/master/LICENSE.md"
-    }
-  ],
+  "version": "0.0.0",
   "engines": {
     "atom": ">= 1.13"
-  },
-  "homepage": "https://github.com/gilbertohasnofb/cyberpunk-syntax#readme",
-  "bugs": {
-    "url": "https://github.com/gilbertohasnofb/cyberpunk-syntax/issues"
-  },
-  "keywords": [
-    "dark",
-    "cyberpunk",
-    "syntax"
-  ],
-  "license": "MIT",
-  "optionalDependencies": {},
-  "readme": "## Cyberpunk theme\n\nA cyberpunk syntax theme for Atom.\n\nInspired by the [Cyberpunk Theme](https://github.com/n3mo/cyberpunk-theme.el) for emacs. This theme is based on the [Firewatch Syntax Theme](https://atom.io/themes/firewatch-syntax).\n\n![cyberpunk-syntax-screenshot](https://user-images.githubusercontent.com/5700795/32986091-46d643aa-ccc1-11e7-87ae-db7ae42f6395.png)",
-  "readmeFilename": "README.md",
-  "theme": "syntax"
+  }
 }
