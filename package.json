@@ -3,7 +3,7 @@
   "description": "A cyberpunk syntax theme",
   "repository": "https://github.com/gilbertohasnofb/cyberpunk-syntax.git",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "atom": ">= 1.13"
   }
