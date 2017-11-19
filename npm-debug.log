@@ -8,37 +8,27 @@
 2 info using npm@3.10.10
 3 info using node@v6.9.5
 4 info git [ 'status', '--porcelain' ]
-5 info lifecycle cyberpunk-syntax@0.1.0~preversion: cyberpunk-syntax@0.1.0
-6 silly lifecycle cyberpunk-syntax@0.1.0~preversion: no script for preversion, continuing
-7 verbose version.write data { name: 'cyberpunk-syntax',
-7 verbose version.write   description: 'A cyberpunk syntax theme',
-7 verbose version.write   repository: 'https://github.com/gilbertohasnofb/cyberpunk-syntax.git',
-7 verbose version.write   version: '0.1.0',
-7 verbose version.write   engines: { atom: '>= 1.13' } } to package.json
-8 info lifecycle cyberpunk-syntax@0.1.0~version: cyberpunk-syntax@0.1.0
-9 silly lifecycle cyberpunk-syntax@0.1.0~version: no script for version, continuing
-10 info git [ 'add', '/home/gilberto/git/cyberpunk-syntax/package.json' ]
-11 info git [ 'commit', '-m', 'Prepare 0.1.0 release' ]
-12 info git [ 'tag', 'v0.1.0', '-am', 'Prepare 0.1.0 release' ]
-13 verbose stack Error: Command failed: git tag v0.1.0 -am Prepare 0.1.0 release
-13 verbose stack fatal: tag 'v0.1.0' already exists
-13 verbose stack
-13 verbose stack     at ChildProcess.exithandler (child_process.js:206:12)
-13 verbose stack     at emitTwo (events.js:106:13)
-13 verbose stack     at ChildProcess.emit (events.js:191:7)
-13 verbose stack     at maybeClose (internal/child_process.js:877:16)
-13 verbose stack     at Socket.<anonymous> (internal/child_process.js:334:11)
-13 verbose stack     at emitOne (events.js:96:13)
-13 verbose stack     at Socket.emit (events.js:188:7)
-13 verbose stack     at Pipe._handle.close [as _onclose] (net.js:498:12)
-14 verbose cwd /home/gilberto/git/cyberpunk-syntax
-15 error Linux 4.4.0-45-generic
-16 error argv "/usr/share/atom/resources/app/apm/bin/node" "/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "minor" "-m" "Prepare %s release"
-17 error node v6.9.5
-18 error npm  v3.10.10
-19 error code 128
-20 error Command failed: git tag v0.1.0 -am Prepare 0.1.0 release
-20 error fatal: tag 'v0.1.0' already exists
-21 error If you need help, you may report this error at:
-21 error     <https://github.com/npm/npm/issues>
-22 verbose exit [ 1, true ]
+5 verbose stack Error: Git working directory not clean.
+5 verbose stack D npm-debug.log
+5 verbose stack M package.json
+5 verbose stack     at /usr/share/atom/resources/app/apm/node_modules/npm/lib/version.js:247:19
+5 verbose stack     at /usr/share/atom/resources/app/apm/node_modules/npm/lib/utils/no-progress-while-running.js:21:8
+5 verbose stack     at ChildProcess.exithandler (child_process.js:197:7)
+5 verbose stack     at emitTwo (events.js:106:13)
+5 verbose stack     at ChildProcess.emit (events.js:191:7)
+5 verbose stack     at maybeClose (internal/child_process.js:877:16)
+5 verbose stack     at Socket.<anonymous> (internal/child_process.js:334:11)
+5 verbose stack     at emitOne (events.js:96:13)
+5 verbose stack     at Socket.emit (events.js:188:7)
+5 verbose stack     at Pipe._handle.close [as _onclose] (net.js:498:12)
+6 verbose cwd /home/gilberto/git/cyberpunk-syntax
+7 error Linux 4.4.0-45-generic
+8 error argv "/usr/share/atom/resources/app/apm/bin/node" "/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "minor" "-m" "Prepare %s release"
+9 error node v6.9.5
+10 error npm  v3.10.10
+11 error Git working directory not clean.
+11 error D npm-debug.log
+11 error M package.json
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

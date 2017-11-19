@@ -1,10 +1,7 @@
 {
   "name": "cyberpunk-syntax",
   "description": "A cyberpunk syntax theme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gilbertohasnofb/cyberpunk-syntax.git"
-  },
+  "repository": "https://github.com/gilbertohasnofb/cyberpunk-syntax.git",
   "theme": "syntax",
   "version": "0.2.0",
   "engines": {
