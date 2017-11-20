@@ -1,10 +1,58 @@
 {
-  "name": "cyberpunk-syntax",
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+        "spec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171019-14715-8c81g7.dsek0ara4i"
+    ]
+  ],
+  "_from": "../d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+  "_id": "cyberpunk-syntax@0.4.0",
+  "_inCache": true,
+  "_location": "/cyberpunk-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+    "spec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+  "_shasum": "d63243d70efe91e0d887c9cf3019400d3ffeb1bf",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171019-14715-8c81g7.dsek0ara4i",
+  "bugs": {
+    "url": "https://github.com/gilbertohasnofb/cyberpunk-syntax/issues"
+  },
+  "dependencies": {},
   "description": "A cyberpunk syntax theme",
-  "repository": "https://github.com/gilbertohasnofb/cyberpunk-syntax.git",
-  "theme": "syntax",
-  "version": "0.4.0",
+  "devDependencies": {},
   "engines": {
     "atom": ">= 1.13"
-  }
+  },
+  "homepage": "https://github.com/gilbertohasnofb/cyberpunk-syntax#readme",
+  "name": "cyberpunk-syntax",
+  "optionalDependencies": {},
+  "readme": "## Cyberpunk theme\n\nA cyberpunk syntax theme for Atom.\n\nInspired by the [Cyberpunk Theme](https://github.com/n3mo/cyberpunk-theme.el) for emacs. The code is based on the [Firewatch Syntax Theme](https://atom.io/themes/firewatch-syntax), and it also uses the blurry neon effect from [Neon Syntax Theme](https://atom.io/themes/neon-syntax).\n\n![cyberpunk-syntax-screenshot](https://user-images.githubusercontent.com/5700795/32997980-e741e3c6-cd8e-11e7-904b-b5024cc5cb9d.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertohasnofb/cyberpunk-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.0"
 }

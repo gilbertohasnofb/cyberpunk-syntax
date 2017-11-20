@@ -13,40 +13,49 @@
 
   &.syntax--name.syntax--type {
     color: @hue-6-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-6-2, @blur-opacity);
   }
 
   &.syntax--other.syntax--inherited-class {
     color: @hue-4;
+    text-shadow: 0px 0px @blur-size fade(@hue-4, @blur-opacity);
   }
 }
 
 .syntax--keyword {
   color: @hue-3;
+  text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
 
   &.syntax--control {
     color: @hue-3;
+    text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
   }
 
   &.syntax--operator {
     color: @mono-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
   }
 
   &.syntax--other.syntax--special-method {
     color: @hue-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
   }
 
   &.syntax--other.syntax--unit {
     color: @hue-6;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
   }
 }
 
 .syntax--storage {
   color: @hue-3;
+  text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
 
   &.syntax--type {
     &.syntax--annotation,
     &.syntax--primitive {
       color: @hue-3;
+      text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
     }
   }
 
@@ -60,33 +69,41 @@
 
 .syntax--constant {
   color: @hue-6;
+  text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
 
   &.syntax--variable {
     color: @hue-6;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
   }
 
   &.syntax--character.syntax--escape {
     color: @hue-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
   }
 
   &.syntax--numeric {
     color: @hue-6;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
   }
 
   &.syntax--other.syntax--color {
     color: @hue-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
   }
 
   &.syntax--other.syntax--symbol {
     color: @hue-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
   }
 }
 
 .syntax--variable {
   color: @hue-5;
+  text-shadow: 0px 0px @blur-size fade(@hue-5, @blur-opacity);
 
   &.syntax--interpolation {
     color: @hue-5-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-5-2, @blur-opacity);
   }
 
   &.syntax--parameter {
@@ -96,18 +113,21 @@
 
 .syntax--string {
   color: @hue-4;
-
+  text-shadow: 0px 0px @blur-size fade(@hue-4, @blur-opacity);
 
   &.syntax--regexp {
     color: @hue-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @hue-6-2;
+      text-shadow: 0px 0px @blur-size fade(@hue-6-2, @blur-opacity);
     }
   }
 
   &.syntax--other.syntax--link {
     color: @hue-5;
+    text-shadow: 0px 0px @blur-size fade(@hue-5, @blur-opacity);
   }
 }
 
@@ -129,22 +149,26 @@
     &.syntax--heading,
     &.syntax--identity {
       color: @hue-2;
+      text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
     }
 
     &.syntax--bold {
       color: @hue-6-2;
       font-weight: bold;
+      text-shadow: 0px 0px @blur-size fade(@hue-6-2, @blur-opacity);
     }
 
     &.syntax--italic {
       color: @hue-3;
       font-style: italic;
+      text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
     }
   }
 
   &.syntax--section {
     &.syntax--embedded {
       color: @hue-5-2;
+      text-shadow: 0px 0px @blur-size fade(@hue-5-2, @blur-opacity);
     }
 
     &.syntax--method,
@@ -158,17 +182,21 @@
 .syntax--support {
   &.syntax--class {
     color: @hue-6-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-6-2, @blur-opacity);
   }
 
   &.syntax--type {
     color: @hue-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
   }
 
   &.syntax--function  {
     color: @hue-1;
+    text-shadow: 0px 0px @blur-size fade(@hue-1, @blur-opacity);
 
     &.syntax--any-method {
       color: @hue-2;
+      text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
     }
   }
 }
@@ -176,26 +204,32 @@
 .syntax--entity {
   &.syntax--name.syntax--function {
     color: @hue-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
   }
 
   &.syntax--name.syntax--class,
   &.syntax--name.syntax--type.syntax--class {
     color: @hue-6-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-6-2, @blur-opacity);
   }
 
   &.syntax--name.syntax--section {
     color: @hue-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
   }
 
   &.syntax--name.syntax--tag {
     color: @hue-5;
+    text-shadow: 0px 0px @blur-size fade(@hue-5, @blur-opacity);
   }
 
   &.syntax--other.syntax--attribute-name {
     color: @hue-6;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
 
     &.syntax--id {
       color: @hue-2;
+      text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
     }
   }
 }
@@ -203,6 +237,7 @@
 .syntax--meta {
   &.syntax--class {
     color: @hue-6-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-6-2, @blur-opacity);
 
     &.syntax--body {
       color: @mono-1;
@@ -222,14 +257,17 @@
 
   &.syntax--link {
     color: @hue-6;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
   }
 
   &.syntax--require {
     color: @hue-2;
+    text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
   }
 
   &.syntax--selector {
     color: @hue-3;
+    text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
   }
 
   &.syntax--separator {
@@ -267,42 +305,52 @@
   &.syntax--bold {
     color: @hue-6;
     font-weight: bold;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
   }
 
   &.syntax--changed {
     color: @hue-3;
+    text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
   }
 
   &.syntax--deleted {
     color: @hue-5;
+    text-shadow: 0px 0px @blur-size fade(@hue-5, @blur-opacity);
   }
 
   &.syntax--italic {
     color: @hue-3;
     font-style: italic;
+    text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
   }
 
   &.syntax--heading {
     color: @hue-5;
+    text-shadow: 0px 0px @blur-size fade(@hue-5, @blur-opacity);
 
     .syntax--punctuation.syntax--definition.syntax--heading {
       color: @hue-2;
+      text-shadow: 0px 0px @blur-size fade(@hue-2, @blur-opacity);
     }
   }
 
   &.syntax--link {
     color: @hue-3;
+    text-shadow: 0px 0px @blur-size fade(@hue-3, @blur-opacity);
   }
 
   &.syntax--inserted {
     color: @hue-4;
+    text-shadow: 0px 0px @blur-size fade(@hue-4, @blur-opacity);
   }
 
   &.syntax--quote {
     color: @hue-6;
+    text-shadow: 0px 0px @blur-size fade(@hue-6, @blur-opacity);
   }
 
   &.syntax--raw {
     color: @hue-4;
+    text-shadow: 0px 0px @blur-size fade(@hue-4, @blur-opacity);
   }
 }

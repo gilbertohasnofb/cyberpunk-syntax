@@ -7,6 +7,7 @@ atom-text-editor {
 
   .line.cursor-line {
     background-color: @syntax-cursor-line;
+    text-shadow: 0px 0px @blur-size fade(@syntax-cursor-line, @blur-opacity);
   }
 
   .syntax--invisible {
@@ -39,6 +40,8 @@ atom-text-editor {
   }
 
   .gutter {
+
+    background-color: @syntax-gutter-background-color;
 
     .line-number {
       color: @mono-3;
@@ -78,4 +81,5 @@ atom-text-editor {
   .fold-marker:after {
     color: @syntax-gutter-text-color-selected;
   }
+
 }
